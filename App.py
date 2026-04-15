@@ -1,7 +1,7 @@
 import streamlit as st
 from groq import Groq
 st.set_page_config("ACE_AI Content Generator",layout="wide")
-st.title("ACE_AI - Content Generator")
+st.title("IPL - Content Generator")
 st.image("images.jpg")
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 product = st.text_input("Product")
